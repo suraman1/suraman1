@@ -11,6 +11,7 @@ flowchart TD
     E -- No --> G[Calculate factorial using while and for loops]
     G --> I[Print Factorial]
     I --> H[Restart program] --> B
+```
 
 
 
