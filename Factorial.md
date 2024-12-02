@@ -1,26 +1,17 @@
 ### Factorial of Numbers
 This is used for calculating the factorial of a number entered by the user.
 ### Flowchart:
+```mermaid
+flowchart TD
+    A([Start]) --> B[Enter a number]
+    B --> C{Is input valid?}
+    C -- No --> D[Clear input and ignore\nPrint "Please try again"] --> B
+    C -- Yes --> E{Is number 0?}
+    E -- Yes --> F[Print "Factorial = 1"] --> H[Restart program] --> B
+    E -- No --> G[Calculate factorial using while and for loops]
+    G --> I[Print Factorial]
+    I --> H[Restart program] --> B
 
-```flow
-st=>start: Start
-input=>inputoutput: Enter a number
-check_input=>condition: Is input valid?
-invalid=>inputoutput: Invalid input\nPlease try again
-check_zero=>condition: Is number 0?
-factorial_zero=>inputoutput: Factorial = 1
-calculate=>operation: Calculate factorial
-print_result=>inputoutput: Print Factorial
-back=>operation: Restart program
-end=>end: End
-
-st->input->check_input
-check_input(no)->invalid->input
-check_input(yes)->check_zero
-check_zero(yes)->factorial_zero->back
-check_zero(no)->calculate->print_result->back
-back->input
-```
 
 
 
