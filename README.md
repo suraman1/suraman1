@@ -1,7 +1,7 @@
 
 # Hi there 👋 I'm Surafel Mesfin
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=200&section=header&text=Sike%20Welcome%20Bro&fontSize=40&fontColor=ffffff)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=200&section=header&text=%20Welcome%20Bro!&fontSize=40&fontColor=ffffff)
 ## 👨‍💻 About Me
 
 I am a passionate developer currently learning and building projects.  
